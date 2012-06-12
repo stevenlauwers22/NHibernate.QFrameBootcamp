@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+									 assembly="NHibernateCourse.Demo1"
+									 namespace="NHibernateCourse.Demo1.Domain">
+
+	<class name="Book">
+		<id name="Id">
+			<generator class="guid.comb"/>
+		</id>
+    
+		<property name="Name"/>
+		<property name="Price"/>
+
+    <many-to-one name="Author" class="Author" column="AuthorId" cascade="none" />
+  </class>
+
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+									 assembly="NHibernateCourse.Demo7"
+									 namespace="NHibernateCourse.Demo7.Domain">
+
+	<class name="Order" dynamic-update="true">
+		<id name="Id" access="field.camelcase-underscore">
+			<generator class="guid.comb"/>
+		</id>
+    
+		<property name="Description"/>
+    <property name="Price" />
+
+    <component name="AuditingInfo">
+      <property name="CreatedBy"/>
+      <property name="CreatedOn"/>
+      <property name="UpdatedBy"/>
+      <property name="UpdatedOn"/>
+    </component>
+    
+    <many-to-one name="Customer" class="Customer" column="CustomerId" cascade="none" />
+	</class>
+
+</hibernate-mapping>

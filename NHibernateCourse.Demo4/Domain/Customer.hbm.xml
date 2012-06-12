@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+									 assembly="NHibernateCourse.Demo4"
+									 namespace="NHibernateCourse.Demo4.Domain">
+
+	<class name="Customer">
+		<id name="Id">
+			<generator class="guid.comb"/>
+		</id>
+    
+		<property name="Name"/>
+
+    <component name="BillingAddress">
+      <property name="Street" column="BillingAddressStreet"/>
+      <property name="City" column="BillingAddressCity"/>
+      <property name="Country" column="BillingAddressCountry"/>
+    </component>
+    
+    <component name="ShippingAddress">
+      <property name="Street" column="ShippingAddressStreet"/>
+      <property name="City" column="ShippingAddressCity"/>
+      <property name="Country" column="ShippingAddressCountry"/>
+    </component>
+
+    <component name="LegalAddress">
+      <property name="Street" column="LegalAddressStreet"/>
+      <property name="City" column="LegalAddressCity"/>
+      <property name="Country" column="LegalAddressCountry"/>
+    </component>
+	</class>
+
+</hibernate-mapping>

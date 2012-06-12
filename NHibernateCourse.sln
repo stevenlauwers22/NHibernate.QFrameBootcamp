@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schema", "Schema", "{C4756E20-49C3-461B-9062-ED99ED17825A}"
+	ProjectSection(SolutionItems) = preProject
+		packages\NHibernate.3.3.0.4000\nhibernate-configuration.xsd = packages\NHibernate.3.3.0.4000\nhibernate-configuration.xsd
+		packages\NHibernate.3.3.0.4000\nhibernate-mapping.xsd = packages\NHibernate.3.3.0.4000\nhibernate-mapping.xsd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateCourse.Demo1", "NHibernateCourse.Demo1\NHibernateCourse.Demo1.csproj", "{FA10292D-1676-4B3C-9136-574E4EB5995D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateCourse.Demo2", "NHibernateCourse.Demo2\NHibernateCourse.Demo2.csproj", "{E773AE52-43EC-478F-AF20-B0EF367DE756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateCourse.Demo3", "NHibernateCourse.Demo3\NHibernateCourse.Demo3.csproj", "{8D4B2FB6-F6A3-407D-BD05-185F4B1A5EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateCourse.Demo4", "NHibernateCourse.Demo4\NHibernateCourse.Demo4.csproj", "{D7D6D999-F149-42AB-908E-2E7AD3286A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateCourse.Demo5", "NHibernateCourse.Demo5\NHibernateCourse.Demo5.csproj", "{12983C33-CC73-467F-926E-09547FBA16C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateCourse.Demo6", "NHibernateCourse.Demo6\NHibernateCourse.Demo6.csproj", "{69007178-829D-48FF-947E-D60D31C4BF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateCourse.Demo7", "NHibernateCourse.Demo7\NHibernateCourse.Demo7.csproj", "{960D0447-F414-415A-8633-1B9AA788C681}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA10292D-1676-4B3C-9136-574E4EB5995D}.Debug|x86.ActiveCfg = Debug|x86
+		{FA10292D-1676-4B3C-9136-574E4EB5995D}.Debug|x86.Build.0 = Debug|x86
+		{FA10292D-1676-4B3C-9136-574E4EB5995D}.Release|x86.ActiveCfg = Release|x86
+		{FA10292D-1676-4B3C-9136-574E4EB5995D}.Release|x86.Build.0 = Release|x86
+		{E773AE52-43EC-478F-AF20-B0EF367DE756}.Debug|x86.ActiveCfg = Debug|x86
+		{E773AE52-43EC-478F-AF20-B0EF367DE756}.Debug|x86.Build.0 = Debug|x86
+		{E773AE52-43EC-478F-AF20-B0EF367DE756}.Release|x86.ActiveCfg = Release|x86
+		{E773AE52-43EC-478F-AF20-B0EF367DE756}.Release|x86.Build.0 = Release|x86
+		{8D4B2FB6-F6A3-407D-BD05-185F4B1A5EF2}.Debug|x86.ActiveCfg = Debug|x86
+		{8D4B2FB6-F6A3-407D-BD05-185F4B1A5EF2}.Debug|x86.Build.0 = Debug|x86
+		{8D4B2FB6-F6A3-407D-BD05-185F4B1A5EF2}.Release|x86.ActiveCfg = Release|x86
+		{8D4B2FB6-F6A3-407D-BD05-185F4B1A5EF2}.Release|x86.Build.0 = Release|x86
+		{D7D6D999-F149-42AB-908E-2E7AD3286A3C}.Debug|x86.ActiveCfg = Debug|x86
+		{D7D6D999-F149-42AB-908E-2E7AD3286A3C}.Debug|x86.Build.0 = Debug|x86
+		{D7D6D999-F149-42AB-908E-2E7AD3286A3C}.Release|x86.ActiveCfg = Release|x86
+		{D7D6D999-F149-42AB-908E-2E7AD3286A3C}.Release|x86.Build.0 = Release|x86
+		{12983C33-CC73-467F-926E-09547FBA16C8}.Debug|x86.ActiveCfg = Debug|x86
+		{12983C33-CC73-467F-926E-09547FBA16C8}.Debug|x86.Build.0 = Debug|x86
+		{12983C33-CC73-467F-926E-09547FBA16C8}.Release|x86.ActiveCfg = Release|x86
+		{12983C33-CC73-467F-926E-09547FBA16C8}.Release|x86.Build.0 = Release|x86
+		{69007178-829D-48FF-947E-D60D31C4BF45}.Debug|x86.ActiveCfg = Debug|x86
+		{69007178-829D-48FF-947E-D60D31C4BF45}.Debug|x86.Build.0 = Debug|x86
+		{69007178-829D-48FF-947E-D60D31C4BF45}.Release|x86.ActiveCfg = Release|x86
+		{69007178-829D-48FF-947E-D60D31C4BF45}.Release|x86.Build.0 = Release|x86
+		{960D0447-F414-415A-8633-1B9AA788C681}.Debug|x86.ActiveCfg = Debug|x86
+		{960D0447-F414-415A-8633-1B9AA788C681}.Debug|x86.Build.0 = Debug|x86
+		{960D0447-F414-415A-8633-1B9AA788C681}.Release|x86.ActiveCfg = Release|x86
+		{960D0447-F414-415A-8633-1B9AA788C681}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

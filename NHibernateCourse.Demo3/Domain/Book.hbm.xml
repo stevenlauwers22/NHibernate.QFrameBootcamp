@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+									 assembly="NHibernateCourse.Demo3"
+									 namespace="NHibernateCourse.Demo3.Domain">
+
+	<class name="Book">
+		<id name="Id">
+      <generator class="hilo">
+        <param name="max_lo">5</param>
+      </generator>
+		</id>
+    
+		<property name="Name"/>
+		<property name="Price"/>
+
+    <set name="Authors" table="BookAuthor" cascade="save-update">
+      <key column="BookId" />
+      <many-to-many class="Author" />
+    </set>
+  </class>
+
+</hibernate-mapping>
