@@ -71,21 +71,16 @@
   <ItemGroup>
     <Compile Include="Domain\Address.cs" />
     <Compile Include="Domain\Customer.cs" />
-    <Compile Include="Domain\Handlers\ChangeCustomersBillingAddress.cs" />
-    <Compile Include="Domain\Handlers\CreateOrder.cs" />
+    <Compile Include="Domain\Handlers\ChangeBillingAddress.cs" />
+    <Compile Include="Domain\Handlers\MakeOrder.cs" />
     <Compile Include="Domain\Order.cs" />
     <Compile Include="Infrastructure\Auditing\AuditingEventListener.cs" />
     <Compile Include="Infrastructure\Auditing\AuditingFlushEntityEventListener.cs" />
     <Compile Include="Infrastructure\Auditing\AuditingInfo.cs" />
     <Compile Include="Infrastructure\Auditing\IEntityWithAuditing.cs" />
     <Compile Include="Infrastructure\DontHurtMe\DontHurtMeInterceptor.cs" />
-    <Compile Include="Infrastructure\ICommandHandler.cs" />
-    <Compile Include="Infrastructure\IoC.cs" />
-    <Compile Include="Infrastructure\IQueryHandler.cs" />
     <Compile Include="Infrastructure\ISessionProvider.cs" />
     <Compile Include="Domain\Handlers\GetCustomersFromBelgiumWithTotalOrderPrice.cs" />
-    <Compile Include="Infrastructure\Transactions\TransactionAttribute.cs" />
-    <Compile Include="Infrastructure\Transactions\TransactionInterceptor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\CatchNumberOfQueriesTest.cs" />

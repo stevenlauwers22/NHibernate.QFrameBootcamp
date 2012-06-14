@@ -2,15 +2,9 @@
 using System.Collections.Generic;
 using NHibernate;
 using NHibernate.Transform;
-using NHibernateCourse.Demo7.Infrastructure;
-using NHibernateCourse.Demo7.Infrastructure.Transactions;
 
 namespace NHibernateCourse.Demo7.Domain.Handlers
 {
-    public interface IGetCustomersFromBelgiumWithTotalOrderPrice : IQueryList<GetCustomersFromBelgiumWithTotalOrderPriceResult>
-    {
-    }
-
     public class GetCustomersFromBelgiumWithTotalOrderPriceResult
     {
         public Guid Id { get; set; }
@@ -18,8 +12,7 @@ namespace NHibernateCourse.Demo7.Domain.Handlers
         public decimal TotalOrderPrice { get; set; }
     }
 
-    [Transaction(false)]
-    public class GetCustomersFromBelgiumWithTotalOrderPrice : IGetCustomersFromBelgiumWithTotalOrderPrice
+    public class GetCustomersFromBelgiumWithTotalOrderPrice
     {
         private readonly ISession _session;
 

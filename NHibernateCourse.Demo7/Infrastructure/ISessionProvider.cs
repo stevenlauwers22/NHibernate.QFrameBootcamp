@@ -1,4 +1,8 @@
-﻿using NHibernate;
+﻿using System.Reflection;
+using NHibernate;
+using NHibernate.Cfg;
+using NHibernate.Context;
+using NHibernate.Dialect;
 
 namespace NHibernateCourse.Demo7.Infrastructure
 {
@@ -9,27 +13,58 @@ namespace NHibernateCourse.Demo7.Infrastructure
 
     public class SessionProvider : ISessionProvider
     {
-        private readonly ISessionFactory _sessionFactory;
-        private ISession _session;
-
-        public SessionProvider(ISessionFactory sessionFactory)
-        {
-            _sessionFactory = sessionFactory;
-            _session = CreateSession();
-        }
+        private static ISessionFactory _sessionFactory;
 
         public ISession GetSession()
         {
-            if (!_session.IsOpen || !_session.IsConnected)
-                _session = CreateSession();
+            ISession session = null;
+            if (_sessionFactory == null)
+            {
+                _sessionFactory = CreateSessionFactory();
+                session = CreateSession();
+            }
 
-            return _session;
+            if (session == null)
+            {
+                session = _sessionFactory.GetCurrentSession();
+
+                if (!session.IsOpen || !session.IsConnected)
+                    session = CreateSession();
+            }
+
+            session.Clear();
+
+            return session;
         }
 
-        private ISession CreateSession()
+        private static ISession CreateSession()
         {
             var session = _sessionFactory.OpenSession();
+            CurrentSessionContext.Bind(session);
+
             return session;
+        }
+
+        private static ISessionFactory CreateSessionFactory()
+        {
+            var cfg = new Configuration()
+                .SetProperty(Environment.Hbm2ddlAuto, "create-drop")
+                .SetProperty(Environment.Hbm2ddlKeyWords, "auto-quote")
+                .SetProperty(Environment.CurrentSessionContextClass, "thread_static")
+                .DataBaseIntegration(db =>
+                {
+                    db.ConnectionString = @"Data Source=.\sqlexpress;Initial Catalog=NHibernateCourse;Integrated Security=SSPI";
+                    db.Dialect<MsSql2008Dialect>();
+                })
+                .AddAssembly(Assembly.GetExecutingAssembly());
+
+            //cfg.SetListener(ListenerType.PreInsert, new AuditingEventListener());
+            //cfg.SetListener(ListenerType.PreUpdate, new AuditingEventListener());
+            //cfg.SetListener(ListenerType.FlushEntity, new AuditingFlushEntityEventListener());
+            
+            //cfg.SetInterceptor(new DontHurtMeInterceptor());
+
+            return cfg.BuildSessionFactory();
         }
     }
 }
