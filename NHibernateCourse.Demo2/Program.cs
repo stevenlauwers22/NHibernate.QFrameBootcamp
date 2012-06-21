@@ -38,6 +38,7 @@ namespace NHibernateCourse.Demo2
                 // Query with duplicate data fixed by future query
                 //var books = session
                 //    .QueryOver<Book>()
+                //    .OrderBy(b => b.Name).Asc
                 //    .Future<Book>();
 
                 //session

@@ -308,3 +308,67 @@
 2012-06-12 15:22:44,410 [14] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 06/17/2012 00:00:00
 2012-06-12 15:27:44,412 [22] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 06/17/2012 00:00:00
 2012-06-12 15:27:44,412 [22] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 06/17/2012 00:00:00
+2012-06-21 13:07:02,565 [1] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:07:02,668 [1] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:07:03,285 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2012-06-21 13:07:06,033 [4] INFO  HibernatingRhinos.Profiler.Client.App [(null)] - Checking for updates...
+2012-06-21 13:07:07,924 [4] INFO  HibernatingRhinos.Profiler.Client.App [(null)] - Found an update, starting downloading build #938
+2012-06-21 13:12:02,672 [15] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:12:02,673 [15] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:17:02,690 [9] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:17:02,690 [9] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:22:02,691 [19] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:22:02,693 [19] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:27:02,698 [26] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:27:02,699 [26] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:32:02,712 [26] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:32:02,713 [26] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:37:02,715 [21] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:37:02,716 [21] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:42:02,718 [20] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:42:02,719 [20] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:47:02,722 [21] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:47:02,723 [21] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:52:02,725 [21] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:52:02,726 [21] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:57:02,739 [29] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 13:57:02,740 [29] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:02:02,741 [20] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:02:02,742 [20] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:07:02,743 [20] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:07:02,744 [20] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:12:02,755 [20] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:12:02,756 [20] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:17:02,757 [20] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:17:02,758 [20] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:22:02,760 [21] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:22:02,761 [21] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:27:02,805 [21] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:27:02,806 [21] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:30:36,137 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file NHProf.exe to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\NHProf.exe
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file HibernatingRhinos.Profiler.Appender.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\HibernatingRhinos.Profiler.Appender.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file HibernatingRhinos.Profiler.BackEnd.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\HibernatingRhinos.Profiler.BackEnd.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file HibernatingRhinos.Profiler.Integration.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\HibernatingRhinos.Profiler.Integration.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file log4net.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\log4net.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file Microsoft.Practices.ServiceLocation.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\Microsoft.Practices.ServiceLocation.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file Caliburn.PresentationFramework.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\Caliburn.PresentationFramework.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file Caliburn.Core.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\Caliburn.Core.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file AqiStar.TextBox.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\AqiStar.TextBox.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file Xceed.Wpf.DataGrid.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\Xceed.Wpf.DataGrid.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file Xceed.Wpf.Controls.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\Xceed.Wpf.Controls.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file Newtonsoft.Json.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\Newtonsoft.Json.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file gudusoft.gsqlparser.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\gudusoft.gsqlparser.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file NAppUpdate.Framework.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\NAppUpdate.Framework.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file NAppUpdate.Framework.pdb to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\NAppUpdate.Framework.pdb
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file license.txt to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\license.txt
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file How to use.txt to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\How to use.txt
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file Acknowledgments.txt to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\Acknowledgments.txt
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file HibernatingRhinos.Profiler.Appender.NHibernateLog4Net.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\HibernatingRhinos.Profiler.Appender.NHibernateLog4Net.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file HibernatingRhinos.Profiler.Appender.v4.0.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\HibernatingRhinos.Profiler.Appender.v4.0.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file ICSharpCode.SharpZipLib.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\ICSharpCode.SharpZipLib.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file Microsoft.Expression.Interactions.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\Microsoft.Expression.Interactions.dll
+2012-06-21 14:30:36,138 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Registering file System.Windows.Interactivity.dll to be updated with C:\Projects\GitHub\NHibernateCourse\packages\NHibernateProfiler.1.0.0.937\tools\AutoUpdate\System.Windows.Interactivity.dll
+2012-06-21 14:35:23,072 [1] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:35:23,208 [1] INFO  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 07/15/2012 00:00:00
+2012-06-21 14:35:24,063 [1] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2012-06-21 14:35:24,777 [4] INFO  HibernatingRhinos.Profiler.Client.App [(null)] - Checking for updates...
