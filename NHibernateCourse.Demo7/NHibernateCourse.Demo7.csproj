@@ -91,7 +91,26 @@
     <None Include="App.config" />
     <None Include="Packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Infrastructure\DontHurtMe\Sounds\2scream.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Infrastructure\DontHurtMe\Sounds\ahhh.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Infrastructure\DontHurtMe\Sounds\ciglik3.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Infrastructure\DontHurtMe\Sounds\cri-d-effroi-scream.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Infrastructure\DontHurtMe\Sounds\scream13.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Infrastructure\DontHurtMe\Sounds\scream4.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Domain\Order.hbm.xml">
       <SubType>Designer</SubType>
